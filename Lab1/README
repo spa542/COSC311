@@ -1,0 +1,28 @@
+Ryan Rosiak
+COSC 311-601
+Lab-1 README File
+9/4/20
+
+Lab Description:
+This lab demonstrates basic to advanced python skills. A lot of the lab 
+is based on getting familiar with jupyterlabs, jupyter notebooks, and 
+getting python code running all alongside each other. Some advanced 
+python concepts are practised such as special python keywords along with
+list comprehension. Also, some inquiries are made into how to visualize 
+the sample data that is tinkered with throughout the lab. Overall, this
+lab is to get my feet wet so that I can start getting into advanced data
+science techniques and algorithm visualizations.
+
+File to pay attention to:
+
+lab1.ipynb - Main jupyter file
+
+samplepichart.docx - Word doc containing chart to answer a question
+
+Instructions for Program:
+Must have a working version of JupyterLabs or Jupyter Notebooks. All
+you have to do is open the file in one of the two programs and execute
+each cell one by one.
+
+***Answers to problems in lab are within raw cells in jupyter
+***Pie chart is in samplepiechart.docx
