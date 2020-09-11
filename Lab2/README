@@ -1,0 +1,21 @@
+Ryan Rosiak
+COSC 311-601
+Lab-2 README File
+9/10/20
+
+Lab Description:
+This lab demonstrates basic OOP functionality in python as well as some basic plotting 
+capabilities using the library matplotlib. Jupyter notebooks is a very unique application. 
+This lab truly shows what jupyter can do when visualizing shapes and testing algorithms on 
+those shapes at the same time. I am finally starting to dip my feet into the world of data 
+science and this lab starts the first of the building blocks to continue learning more complex
+algorithms and visualizations.
+
+Files to pay attention to:
+
+lab2.ipynb - Main jupyter file
+
+Instructions for Program:
+Must have a working version of JupyterLabs or Jupyter Notebooks. All
+you have to do is open the file in one of the two programs listed and execute
+each cell one by one from the beginning.
