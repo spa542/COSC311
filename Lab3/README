@@ -1,0 +1,23 @@
+Ryan Rosiak
+COSC 311-601
+Lab-3 README File
+9/27/20
+
+Lab Description:
+This lab demonstrates the basic to intermediate functionality of the Pandas
+dataframe library. Pandas is used to import data, manipulate data,
+and display data in order to draw conclusions and represent data in 
+a clear and concise way. Most of the common functions were used such as
+pivoting, groupby, sort_values, and various graphs. This lab will be used
+as a basis for all future visualizations and computations. 
+
+Files to pay attention to:
+
+lab3.ipynb - Main jupyter file
+
+adult.data - Data CSV file
+
+Instructions for Program:
+Must have a working version of JupyterLabs or Jupyter Notebooks. All you
+have to do is open the file in one of the two programs listed and execute
+each cell one by one from the beginning.
