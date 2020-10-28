@@ -1,0 +1,26 @@
+Ryan Rosiak
+COSC 311-601
+Lab-4 README File
+10/28/20
+
+Lab Description:
+This lab demonstrates knowledge of basic probability and conditional 
+probability in addition to working with probability using Pandas on a real
+life dataset. Overall, there are graphs and tables to visualize the computed
+probabilities. There is also a short demonstration of statistical tools,
+such as, variance, mean, covariance, and percentiles.
+
+Files to pay attention to:
+
+lab4.ipynb - Main jupyter file
+
+adult.data - Data CSV file
+
+311 lab 4 problems Rosiak - Extra handwritten problems for lab
+
+Instructions for Program:
+Must have a working version of JupyterLabs or Jupyter Notebooks. All you 
+have to do is open the file in one of the two programs listed and execute
+each cell one by one from the beginning.
+
+**Note: extra problems from lab directions are in pdf file provided in zip
