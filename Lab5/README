@@ -1,0 +1,22 @@
+Ryan Rosiak and Grant Dawson
+COSC 311-601
+Lab-5 README File
+11/12/20
+
+Lab Description:
+This lab demonstrates usage of continuous random variables as it pertains to the iris 
+data set. We use the Central Limit Theorem to draw large samples from the iris data set
+and calculate confidence intervals and correlation coefficients. We also calculated p-values
+for the data set to do some hypothesis testing on various data points. Overall, this lab
+works closely with the normal distribution as it relates to many real world problems.
+
+Files to pay attention to:
+
+lab5.ipynb - Main jupyter file
+
+iris.data - Data CSV file
+
+Instructions for Program:
+Must have a working version of JupyterLabs or Jupyter Notebooks. All you
+have to do is open the file in one of the two programs listed and execute
+each cell one by one from the beginning.
