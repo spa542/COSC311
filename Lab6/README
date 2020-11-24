@@ -1,0 +1,26 @@
+Ryan Rosiak and Grant Dawson
+COSC 311-601
+Lab-6 README File
+11/23/20
+
+Lab Description:
+This lab demonstrates applications of the machine learning algorithm K-Nearest-Neighbors. This algorithm
+is fully implemented using the idea of supervised machine learning and follows the process of training the data,
+testing the data, and drawing conclusions using confusion matrices and learning curves. The two datasets that 
+KNN is applied to are the iris dataset and the adult dataset. Overall, we see the speed of KNN as we increase
+the amount of training points and analyze the accuracy of the algorithm as we increase and decrease the amount
+of training points.
+
+Files to pay attention to:
+
+lab6.ipynb - Main jupyter file
+
+iris.data, adult.data - Data CSV files
+
+Instructions for Program:
+Must have a working version of JupyterLabs or Jupyter Notebooks. All you have to do is open
+the file in one of the two programs listed and execute each cell one by one from the beginning.
+
+**NOTE: The learning curves within the lab are only displaying subsets of the points that are tested.
+Despite much effort to reduce the computational complexity of the algorithm, when working on the adult
+dataset, running on the full dataset proves to be much too long for testing needs.
