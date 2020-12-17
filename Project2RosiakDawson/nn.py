@@ -208,6 +208,29 @@ class NN:
                 self.backprop(vals, pred, dat, train_y[j])
                 loss += (abs(pred - train_y[j])**2).sum()
         print("Current loss: " + str(loss))
+        return loss
 
 
 
+    def predict(self, train_x, train_y, labels, verbose=False):
+#             loss = 0    # 
+#             correct = 0 # Number of trials that were guessed correct            
+#             for j in range(0,train_x.shape[0]):
+            dat = train_x#[j]
+            if self.bias:
+                dat = np.append(train_x, [1])#train_x[j]
+
+            # get the prediction for the point, using the current weights (model)
+            pred, vals = self.forward_step(dat)
+            # adjust the weights (model) to account for whether we're incorrect
+            self.backprop(vals, pred, dat, train_y)#train_y[j]
+#                 loss += (abs(pred - train_y[j])**2).sum()
+#                 compare = pred==train_y[j]
+#                 if compare.all():
+#                     correct+=1
+#             print("Current loss: "+ str(loss))
+            #print(f"Correct: {correct} | Total:{train_x.shape[0]}")
+            #pred: [.5, .75, .69, .99]
+            #labl: [theft, prostitution, GTA, Tax Fraud]
+            
+            return str(labels[pred.argmax()])
