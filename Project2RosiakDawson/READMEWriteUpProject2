@@ -1,0 +1,29 @@
+COSC 311-601 Write Up
+Ryan Rosiak and Grant Dawson
+
+    The data that we are using is the San Francisco Crime Dataset. Each data
+point is a separate incident or crime that was commited in the year 2016 in the
+city of San Francisco. Some of the crime for that year could easily  have not
+been accounted for, but we have a large 150000 row database to work with. This data was
+collected and compiled from various police departments around San Francisco. There are
+many classes within the data but none of them give away the data. Some of the classes 
+are things like id number, incident, District, Category, time, date, and 
+location. There are some key atrributes that can give us very valuable information, but
+none of these completely give something away. If there is one, then the incident report
+paired with the category of crime basically tells us everything we need to know
+disregarding location. The San Francisco seems as if most of the data given were paramaters
+for the underlying population in regards to the type of incident/category. The real question is
+how deep are you willing to look. One big contributer is geological location which is
+given either as an address or as an (X,Y) tuple location. This makes sense since certain neighborhoods or
+certain areas of the city will be known for certain crimes compared to others. One block may be known
+for drugs and another street cornier may be known for protittution and rich areas have issues with theft
+and so on. If you are willing to looking into more of the data, most of the given attributes can be thought
+of in a way taht wil affect what the crime will be. The day of the week is an indicator since jpeople work
+during the day on week days, so we can expext most people wont be in their homes. This could indicate a higher rate
+of theft crimes and break ins. Every attribute is necessary in coming up with these conclusions and can be manipulated
+in many ways to get an anwser. Overall, we used K-Nearest Neighbors and a Neural Network. We are using the geological
+location (X,Y) for KNN because it is a perfect pair. Although we can manipulate any data for the KNN, this 2d data
+makes the most sense to use. For the neural net, we can use very diverse inputs so we can be more flexible about what
+is being entered. For this reason, we are using the district, time of day, day of the week, and description in order
+to let the neural net learn and make a more accurate prediction. All graphs and visualizations are provided in the 
+various files. There is so much to pull out of this dataset.
