@@ -1,4 +1,4 @@
-# COSC 311-601
+# COSC 311-601 Data Visualization and Analysis
 # Author: Ryan Rosiak
 # Teacher: Joseph Anderson
 # Contributor: [Grant Dawson](https://github.com/dawsboss)
